@@ -1,3 +1,5 @@
+package be.pxl.ja.ticketsystem;
+
 import java.time.LocalDate;
 
 public class User {
