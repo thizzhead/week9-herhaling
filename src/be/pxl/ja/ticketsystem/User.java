@@ -59,4 +59,9 @@ public class User {
     public void setId(String id) {
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        return id + " - " + firstname + " " + lastname + "  " + birthday;
+    }
 }
